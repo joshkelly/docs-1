@@ -32,7 +32,7 @@ For any deployment, ensure you have an account at Packet and either are logged i
 ```
 # set your version
 VERSION="v1.17.4%2Bk3s1"
-curl -o /usr/local/bin/k3s https://github.com/rancher/k3s/releases/download/${VERSION}/k3s
+curl -o /usr/local/bin/k3s -L https://github.com/rancher/k3s/releases/download/${VERSION}/k3s
 chmod +x /usr/local/bin/k3s
 ```
 
